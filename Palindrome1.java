@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-//for number
-public class Palindrome{
+//for Strings
+public class Palindrome1{
 
 
-	static boolean IsPalindrome( int n){
+	static boolean IsPalindrome(String str){
 
 
-		String str=Integer.toString(n);
+		
 
 		int left=0, right=str.length()-1;
 
@@ -41,10 +41,10 @@ public class Palindrome{
 
 		Scanner sc=new Scanner(System.in);
 
-		int n=sc.nextInt();
+		String str=sc.nextLine();
 
 
-		System.out.println(IsPalindrome(n));
+		System.out.println(IsPalindrome(str));
 
 
 

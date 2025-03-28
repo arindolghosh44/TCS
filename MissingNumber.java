@@ -17,7 +17,7 @@ public class MissingNumber{
 
 	
 
-		return expected - asum;
+		return Math.abs(expected - asum);
 
 
 	}
